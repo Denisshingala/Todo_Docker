@@ -1,0 +1,42 @@
+@import url('https://fonts.cdnfonts.com/css/sf-pro-display');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css');
+
+:root {
+    --primary-color: #ff5a5f;
+    --dark-primary-color: #ff4046db;
+}
+
+body {
+    margin: 0;
+    font-family: 'SF Pro Display', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+        monospace;
+}
+
+/* to remove ugly focus border of bootstrap */
+*:focus {
+    box-shadow: none !important;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.bg__primary {
+    background-color: var(--dark-primary-color) !important;
+}
+
+.btn__primary {
+    color: white !important;
+    background-color: var(--dark-primary-color) !important;
+    border-color: var(--dark-primary-color) !important;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

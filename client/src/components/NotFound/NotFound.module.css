@@ -1,0 +1,34 @@
+.page404 {
+    padding: 40px 0;
+    background: #fff;
+}
+
+.page404Img {
+    width: 100%;
+}
+
+.fourZerofourBg {
+    height: 400px;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+}
+
+
+.fourZerofourBg h1 {
+    font-size: 80px;
+}
+
+.fourZerofourBg h3 {
+    font-size: 80px;
+}
+
+.link404 {
+    color: #fff !important;
+    padding: 10px 20px;
+    background: var(--primary-color);
+    display: inline-block;
+}
+
+.contantBox404 {
+    margin-top: -50px;
+}

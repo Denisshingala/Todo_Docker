@@ -1,0 +1,58 @@
+.registerPage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.formHorizontal {
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.registerFormHeader {
+    text-align: center;
+}
+
+.formGroup {
+    margin-bottom: 20px;
+}
+
+.controlLabel {
+    font-weight: bold;
+    color: #333;
+}
+
+.formControl {
+    border-radius: 0;
+    height: 40px;
+}
+
+.formControl:hover {
+    border-color: #ff5a5f;
+}
+
+.btnPrimary {
+    color: white !important;
+    background-color: var(--primary-color) !important;
+    border-color: var(--primary-color) !important;
+}
+
+.btnPrimary:hover,
+.btnPrimary:focus {
+    background-color: var(--dark-primary-color) !important;
+    border-color: var(--dark-primary-color) !important;
+}
+
+.registerPageParagraph {
+    text-align: center;
+    margin-top: 10px;
+}
+.registerPageLink {
+    color: #ff5a5f;
+    text-decoration: none;
+}
